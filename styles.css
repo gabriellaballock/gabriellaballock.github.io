@@ -287,6 +287,15 @@ li {
     text-align: center;
 }
 
+/* Actual Hero Image */
+.hero-image-block img.hero-image {
+    width: 250px;       /* controls the displayed size */
+    max-width: 100%;    /* responsive for smaller screens */
+    height: auto;       /* keeps aspect ratio */
+    border-radius: var(--radius-lg); /* optional rounded corners */
+    object-fit: cover;  /* crops nicely if needed */
+}
+
 .placeholder-box {
     width: 320px;
     height: 420px;
@@ -758,4 +767,5 @@ li {
 }
 
 }
+
 

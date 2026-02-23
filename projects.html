@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gabriella Ballock - Projects: Engineering Design, Technical Work & Innovation">
+    <title>Projects | Gabriella Ballock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION BAR (FIXED) ===== -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <a href="index.html">Gabriella Ballock</a>
+        </div>
+        
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
+            <li class="nav-item"><a href="leadership.html" class="nav-link">Leadership</a></li>
+            <li class="nav-item"><a href="awards.html" class="nav-link">Awards</a></li>
+            <li class="nav-item"><a href="media.html" class="nav-link">Media</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+    <div class="container">
+        <h1>Projects</h1>
+        <p class="header-subtitle">Engineering Design, Technical Work & Hands-On Innovation</p>
+    </div>
+</section>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main class="container main-content">
+    
+    <!-- ===== CARDS GRID ===== -->
+    <div class="cards-grid">
+        
+        <!-- ===== CARD 1: UMBRELLA STAND ===== -->
+        <div class="card" onclick="openExpanded('umbrella')">
+            <div class="card-image">
+                <div class="placeholder-image">Umbrella Stand</div>
+            </div>
+            <div class="card-content">
+                <h3 class="card-title">Umbrella Stand Safety Design</h3>
+                <p class="card-role">Engineering Design & Development</p>
+                <p class="card-description">Arduino wind speed monitoring. AutoCAD design, plasma cutting, riveting.</p>
+            </div>
+        </div>
+        
+        <!-- ===== CARD 2: CIVIL ENGINEERING ===== -->
+        <div class="card" onclick="openExpanded('civil')">
+            <div class="card-image">
+                <div class="placeholder-image">Building Design</div>
+            </div>
+            <div class="card-content">
+                <h3 class="card-title">Building Design</h3>
+                <p class="card-role">Civil Engineering & Architecture | RIT</p>
+                <p class="card-description">Load calculations, code compliance, accessibility design, structural optimization.</p>
+            </div>
+        </div>
+        
+        <!-- ===== CARD 3: WOODWORKING ===== -->
+        <div class="card" onclick="openExpanded('woodworking')">
+            <div class="card-image">
+                <div class="placeholder-image">Woodworking</div>
+            </div>
+            <div class="card-content">
+                <h3 class="card-title">Custom Woodworking & Furniture</h3>
+                <p class="card-role">Hands-On Craftsmanship & Precision Work</p>
+                <p class="card-description">Custom side tables, blanket chest, epoxy inlay details. Premium finishes.</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- ===== EXPANDED SECTIONS ===== -->
+    
+    <!-- UMBRELLA STAND EXPANDED -->
+    <div id="umbrella" class="expanded-section" style="display: none;">
+        <button class="close-btn" onclick="closeExpanded()">✕</button>
+        
+        <h2>Umbrella Stand Safety Design</h2>
+        <p class="expanded-company">Engineering Design & Development</p>
+        
+        <div class="expanded-body">
+            <p><strong>The Problem:</strong> Approximately 7,379 injuries are caused annually by beach and patio umbrellas blowing away and becoming projectiles.</p>
+            
+            <p><strong>The Solution:</strong> Design and manufacture a safer, more stable umbrella stand that prevents wind-related incidents.</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul class="content-list">
+                <li><strong>Wind Speed Monitoring System:</strong> Integrated an anemometer and Arduino to convert wind speed into m/s, providing real-time warnings for when to lower or secure the umbrella.</li>
+                <li><strong>Robust Construction:</strong> Engineered a durable stand with optimized weight distribution and stability.</li>
+                <li><strong>Manufacturing:</strong> Used AutoCAD for design, plasma cutter for cutting, tack welder and rivets for assembly.</li>
+            </ul>
+            
+            <p class="reflection"><strong>Reflection:</strong> This project combined mechanical design, electronics, Arduino programming, and real-world manufacturing—showcasing the full product development lifecycle.</p>
+        </div>
+        
+        <div class="gallery-section">
+            <h3>Project Photos</h3>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 1</div>
+                    <p class="placeholder-caption">Add umbrella stand photo</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 2</div>
+                    <p class="placeholder-caption">Add umbrella stand photo</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 3</div>
+                    <p class="placeholder-caption">Add umbrella stand photo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- CIVIL ENGINEERING EXPANDED -->
+    <div id="civil" class="expanded-section" style="display: none;">
+        <button class="close-btn" onclick="closeExpanded()">✕</button>
+        
+        <h2>Commercial & Residential Building Design</h2>
+        <p class="expanded-company">Civil Engineering & Architecture | RIT Course</p>
+        
+        <div class="expanded-body">
+            <p>Throughout my educational journey, I completed several engineering courses through Rochester Institute of Technology (RIT), including Civil Engineering and Architecture. In this course, I had the opportunity to design both commercial and residential buildings that adhered to all applicable codes and standards based on site conditions.</p>
+            
+            <p><strong>Technical Calculations & Analysis:</strong></p>
+            <ul class="content-list">
+                <li>Live and dead load calculations</li>
+                <li>Door width specifications based on ingress and egress requirements</li>
+                <li>Occupancy load determinations</li>
+                <li>Handicap accessibility compliance</li>
+                <li>Structural and spatial optimization</li>
+            </ul>
+            
+            <p class="reflection"><strong>Reflection:</strong> These projects deepened my understanding of building codes, structural safety, and the importance of designing spaces that are both functional and accessible.</p>
+        </div>
+        
+        <div class="gallery-section">
+            <h3>Design Gallery</h3>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 1</div>
+                    <p class="placeholder-caption">Add building design photo</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 2</div>
+                    <p class="placeholder-caption">Add building design photo</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 3</div>
+                    <p class="placeholder-caption">Add building design photo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- WOODWORKING EXPANDED -->
+    <div id="woodworking" class="expanded-section" style="display: none;">
+        <button class="close-btn" onclick="closeExpanded()">✕</button>
+        
+        <h2>Custom Woodworking & Furniture Design</h2>
+        <p class="expanded-company">Hands-On Craftsmanship & Precision Work</p>
+        
+        <div class="expanded-body">
+            <p>As a newcomer to woodworking, I gradually built my skills over time with the support of my teacher and mentor, Mr. Barber. I designed and constructed several pieces that blend traditional woodworking techniques with modern digital design.</p>
+            
+            <p><strong>Major Pieces:</strong></p>
+            <ul class="content-list">
+                <li><strong>Two Custom Side Tables:</strong> Featuring precision joinery and refined finishes.</li>
+                <li><strong>Custom Blanket Chest:</strong> A larger functional piece combining structural integrity with decorative elements.</li>
+                <li><strong>Epoxy Resin Inlay Details:</strong> Incorporated CNC-routed patterns into the wood, which I filled with epoxy resin for a clean, decorative finish.</li>
+            </ul>
+            
+            <p><strong>Materials & Techniques:</strong></p>
+            <ul class="content-list">
+                <li><strong>Premium Wood Selection:</strong> Worked with cherry, curly maple, and maple plywood.</li>
+                <li><strong>Precision Finishing:</strong> Planed each piece carefully, sanded until smooth, then stained and clear-coated to enhance the grain.</li>
+                <li><strong>Tools & Equipment:</strong> Gained confidence using table saw, band saw, drill press, hand tools, and sanding equipment.</li>
+            </ul>
+            
+            <p class="reflection"><strong>Reflection:</strong> This hands-on experience helped me develop a deep appreciation for craftsmanship, attention to detail, and seeing an idea come to life from initial design to final product.</p>
+        </div>
+        
+        <div class="gallery-section">
+            <h3>Woodworking Gallery</h3>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 1</div>
+                    <p class="placeholder-caption">Add woodworking photo</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 2</div>
+                    <p class="placeholder-caption">Add woodworking photo</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 3</div>
+                    <p class="placeholder-caption">Add woodworking photo</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">Image 4</div>
+                    <p class="placeholder-caption">Add woodworking photo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 Gabriella Ballock. All rights reserved.</p>
+        <p><small>Hosted on GitHub Pages | Designed & Developed by Gabriella Ballock</small></p>
+    </div>
+</footer>
+
+<script>
+    function openExpanded(id) {
+        const allExpanded = document.querySelectorAll('.expanded-section');
+        allExpanded.forEach(section => section.style.display = 'none');
+        document.getElementById(id).style.display = 'block';
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    
+    function closeExpanded() {
+        const allExpanded = document.querySelectorAll('.expanded-section');
+        allExpanded.forEach(section => section.style.display = 'none');
+        document.querySelector('.cards-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+</script>
+
+</body>
+</html>

@@ -287,24 +287,21 @@ li {
     text-align: center;
 }
 
-/* Actual Hero Image */
+/* Professional Hero Headshot */
 .hero-image-block img.hero-image {
-    width: 250px;       /* controls the displayed size */
-    max-width: 100%;    /* responsive for smaller screens */
-    height: auto;       /* keeps aspect ratio */
-    border-radius: var(--radius-lg); /* optional rounded corners */
-    object-fit: cover;  /* crops nicely if needed */
+    width: 250px;          /* displayed width on desktop */
+    max-width: 100%;       /* ensures responsiveness on smaller screens */
+    height: auto;          /* maintains natural aspect ratio */
+    border-radius: 50%;    /* makes it a perfect circle */
+    border: 3px solid #e67e22; /* subtle accent border to match your theme */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* soft shadow for depth */
+    object-fit: cover;     /* crops image nicely if needed */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* subtle hover effect */
 }
 
-.placeholder-box {
-    width: 320px;
-    height: 420px;
-    background-color: var(--light-bg);
-    border: 2px solid var(--border-color);
-    border-radius: var(--radius-lg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.hero-image-block img.hero-image:hover {
+    transform: scale(1.05);    /* slightly zooms in on hover */
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3); /* stronger shadow on hover */
 }
 
 .placeholder-text {
@@ -767,5 +764,6 @@ li {
 }
 
 }
+
 
 
